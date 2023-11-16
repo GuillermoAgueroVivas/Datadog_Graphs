@@ -1,6 +1,6 @@
 #!/sw/bin/python
 
-#  This scrip is to be able to show how many how many jobs are in the farm per department (LGT, SHD, etc.)
+#  This script is to be able to show how many how many jobs are in the farm per department (LGT, SHD, etc.)
 
 import json
 import tractor.api.query as tq
@@ -10,8 +10,7 @@ from datetime import datetime
 TODAY = datetime.today().strftime('%m%d%Y')
 TIME_NOW = datetime.now()
 TIME = TIME_NOW.strftime('%Y-%m-%d %H:%M:%S')
-# FILE_DIR = "/mnt/w/PubLogs/render/test_jobs_per_department_{}.log".format(TODAY)
-FILE_DIR = "/home/gaguero/Documents/TEST_TMP/test_jobs_per_department_{}.log".format(TODAY)
+FILE_DIR = "/mnt/w/PubLogs/render/test_jobs_per_department_{}.log".format(TODAY)
 LOG_FILE = open(FILE_DIR, "a")
 
 def main():
