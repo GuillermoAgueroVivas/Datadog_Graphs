@@ -14,8 +14,10 @@ I created every single script here to gather certain information, create multipl
 - **harmony_active_waiting_getter.py**
   -  Extracts and logs real-time data on active and waiting Harmony render tasks. It organizes the information by show, episode, and shot, creating a structured JSON log for each category. This tool aids in monitoring rendering backlogs, helping teams manage workload distribution efficiently. 
 
-**harmony_done_getter.py**
+- **harmony_done_getter.py**
+  -  Compiles and logs real-time data on completed Harmony render tasks. The script organizes the information by show, episode, and shot, generating structured JSON logs for each category. This tool aids in monitoring render task completions, offering insights into the workflow's efficiency. 
 
-**jobs_per_department_getter.py**
+- **jobs_per_department_getter.py**
+  - 
 
 **machine_stats_getter.py**
