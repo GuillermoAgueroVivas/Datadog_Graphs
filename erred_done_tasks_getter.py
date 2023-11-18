@@ -11,9 +11,7 @@ from tractor_utils import tractor_utils as tu
 TODAY = datetime.today().strftime('%m%d%Y')
 TIME_NOW = datetime.now()
 TIME = TIME_NOW.strftime('%Y-%m-%d %H:%M:%S')
-# FILE_DIR = "/mnt/w/PubLogs/render/datadog_done_error_{}.log".format(TODAY)
-FILE_DIR = "/home/gaguero/Documents/TEST_TMP/datadog_done_error_{}.log".format(
-    TODAY)
+FILE_DIR = "/mnt/w/PubLogs/render/datadog_done_error_{}.log".format(TODAY)
 LOG_FILE = open(FILE_DIR, "a")
 
 def main(site):
