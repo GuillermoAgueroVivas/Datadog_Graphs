@@ -42,11 +42,7 @@ def get_blades():
 
     if all_blades:
         return all_blades
-        # for blade in all_blades:
-        #     blades_dict.append(blade)
-        # print(blades_dict)
     else:
-        # print("No Blades right now")
         exit()
 
 def pull_data_and_sort(blades_dict):
