@@ -5,7 +5,8 @@ I created every single script here to gather certain information, create multipl
 
   - It checks whether a server blade has a specific note indicating more than five failures. The script collaborates with the "blade_health_checker" script to efficiently assess server health. It compiles the findings into a dictionary, subsequently contributing to a log file utilized by Datadog for comprehensive monitoring. The generated log entries include essential details such as the timestamp, farm, blade name, profile, and the count of flags associated with each blade.
 
-**blades_health_checker.py**
+- **blades_health_checker.py**
+  - It focuses on completed tasks within the past hour, identifying blades that took longer than average. The script standardizes completion times based on blade specifications, providing insights into potential performance issues. The results, including blade names, profiles, completed tasks, and flags, are logged for monitoring and analysis by Datadog.   
 
 **erred_done_tasks_getter.py**
 
