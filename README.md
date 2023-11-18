@@ -11,8 +11,6 @@ I created every single script here to gather certain information, create multipl
 - **erred_done_tasks_getter.py**
   - It captures data on completed and error tasks within the last 5 minutes, categorizing them by project, farm, and timestamp. The collected information is logged in a file, ready for consumption by Datadog for real-time monitoring and analysis.  
 
-**get_current_blade_stats.py**
-
 **harmony_active_waiting_getter.py**
 
 **harmony_done_getter.py**
