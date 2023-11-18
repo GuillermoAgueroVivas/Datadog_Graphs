@@ -20,4 +20,5 @@ I created every single script here to gather certain information, create multipl
 - **jobs_per_department_getter.py**
   - Provides insight into job distribution across different departments. It categorizes jobs by department (LGT, SHD, ANM, CMP, MDL, FX, ADMIN, or OTHER) and logs the counts per project. The resulting JSON-formatted logs offer a snapshot of job allocation, aiding in resource management and workflow optimization.
 
-**machine_stats_getter.py**
+- **machine_stats_getter.py**
+  -  It captures data on CPU usage, memory utilization, and disk space, providing valuable insights for performance tracking and resource management. The resulting logs are formatted in JSON, making them easily digestible for analysis and monitoring. This Datadog script is mainly used by the Render Team to track their personal stats. 
