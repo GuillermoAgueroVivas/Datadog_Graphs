@@ -18,6 +18,6 @@ I created every single script here to gather certain information, create multipl
   -  Compiles and logs real-time data on completed Harmony render tasks. The script organizes the information by show, episode, and shot, generating structured JSON logs for each category. This tool aids in monitoring render task completions, offering insights into the workflow's efficiency. 
 
 - **jobs_per_department_getter.py**
-  - 
+  - Provides insight into job distribution across different departments. It categorizes jobs by department (LGT, SHD, ANM, CMP, MDL, FX, ADMIN, or OTHER) and logs the counts per project. The resulting JSON-formatted logs offer a snapshot of job allocation, aiding in resource management and workflow optimization.
 
 **machine_stats_getter.py**
