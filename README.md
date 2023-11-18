@@ -1,5 +1,5 @@
 # Datadog Graphs:
-Every single script in here was created by me to gather certain information, create multiple dictionaries and add them to a file at a specific locaiton.
+Every single script in here was created by me to gather certain information, create multiple dictionaries and add them to specific file locations so they can be taken in by Datadog and viewed as different types of graphs or visuals. This way the data can be monitored and coparared through different in  
 
 - First window (**main_farm_selection_window.py**) allows for a selection of what section of the Farm you wish to modify. This list is auto-generated from the '.config' file in case any section is removed or added.
 - Second window (depending on the selection, either **linuxfarm_window.py** or **windowsfarm_window.py** will run) displays a list of all available shows in the selected Farm section together with a slider and a combo box for each one showing the current percentage value individually. Here you can adjust the values and proceed to the next window or cancel and go back to selected another section of the Farm. There is also a check to make sure that the values do not go above 100%.
