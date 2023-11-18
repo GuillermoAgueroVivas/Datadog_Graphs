@@ -1,5 +1,5 @@
 # Datadog Graphs:
-I created every single script here to gather certain information, create multiple dictionaries, and add them to specific file locations so they can be taken in by Datadog and viewed as different types of graphs or visuals. This way the data can be monitored and compared through different periods of time throughout the day(s).  
+I created every single script here to gather certain information, create multiple dictionaries, and add them to specific file locations so they can be taken in by Datadog and viewed as different types of graphs or visuals. This way the data can be monitored and compared through different periods of time throughout the day(s). All of these are meant to be used as part of a Crontab specifying how often these scripts would run.  
 
 - **blade_error_note_check.py**
 
@@ -8,7 +8,8 @@ I created every single script here to gather certain information, create multipl
 - **blades_health_checker.py**
   - It focuses on completed tasks within the past hour, identifying blades that took longer than average. The script standardizes completion times based on blade specifications, providing insights into potential performance issues. The results, including blade names, profiles, completed tasks, and flags, are logged for monitoring and analysis by Datadog.   
 
-**erred_done_tasks_getter.py**
+- **erred_done_tasks_getter.py**
+  - It captures data on completed and error tasks within the last 5 minutes, categorizing them by project, farm, and timestamp. The collected information is logged in a file, ready for consumption by Datadog for real-time monitoring and analysis.  
 
 **get_current_blade_stats.py**
 
