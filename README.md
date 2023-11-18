@@ -1,5 +1,5 @@
 # Datadog Graphs:
-I created every single script in here to gather certain information, create multiple dictionaries, and add them to specific file locations so they can be taken in by Datadog and viewed as different types of graphs or visuals. This way the data can be monitored and compared through different periods of time throughout the day(s).  
+I created every single script here to gather certain information, create multiple dictionaries, and add them to specific file locations so they can be taken in by Datadog and viewed as different types of graphs or visuals. This way the data can be monitored and compared through different periods of time throughout the day(s).  
 
 - **blade_error_note_check.py**
 
