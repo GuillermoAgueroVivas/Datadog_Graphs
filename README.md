@@ -11,7 +11,8 @@ I created every single script here to gather certain information, create multipl
 - **erred_done_tasks_getter.py**
   - It captures data on completed and error tasks within the last 5 minutes, categorizing them by project, farm, and timestamp. The collected information is logged in a file, ready for consumption by Datadog for real-time monitoring and analysis.  
 
-**harmony_active_waiting_getter.py**
+- **harmony_active_waiting_getter.py**
+  -  Extracts and logs real-time data on active and waiting Harmony render tasks. It organizes the information by show, episode, and shot, creating a structured JSON log for each category. This tool aids in monitoring rendering backlogs, helping teams manage workload distribution efficiently. 
 
 **harmony_done_getter.py**
 
