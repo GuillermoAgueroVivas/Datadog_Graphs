@@ -3,7 +3,7 @@ I created every single script in here to gather certain information, create mult
 
 - **blade_error_note_check.py**
 
-  - It checks whether a server blade has a specific note indicating more than five failures. The script collaborates with the "blade_health_checker" script to efficiently assess server health. It compiles the findings into      a dictionary, subsequently contributing to a log file utilized by Datadog for comprehensive monitoring. The generated log entries include essential details such as the timestamp, farm, blade name, profile, and the count of flags associated with each blade.
+  - It checks whether a server blade has a specific note indicating more than five failures. The script collaborates with the "blade_health_checker" script to efficiently assess server health. It compiles the findings into a dictionary, subsequently contributing to a log file utilized by Datadog for comprehensive monitoring. The generated log entries include essential details such as the timestamp, farm, blade name, profile, and the count of flags associated with each blade.
 
 **blades_health_checker.py**
 
